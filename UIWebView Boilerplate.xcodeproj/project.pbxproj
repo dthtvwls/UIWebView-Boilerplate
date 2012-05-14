@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B3AD66156184B400D1853D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B3AD65156184B400D1853D /* UIKit.framework */; };
+		42B3AD68156184B400D1853D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B3AD67156184B400D1853D /* Foundation.framework */; };
+		42B3AD6A156184B400D1853D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B3AD69156184B400D1853D /* CoreGraphics.framework */; };
+		42B3AD70156184B400D1853D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42B3AD6E156184B400D1853D /* InfoPlist.strings */; };
+		42B3AD72156184B400D1853D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B3AD71156184B400D1853D /* main.m */; };
+		42B3AD76156184B400D1853D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B3AD75156184B400D1853D /* AppDelegate.m */; };
+		42B3AD79156184B400D1853D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B3AD78156184B400D1853D /* ViewController.m */; };
+		42B3AD7C156184B400D1853D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B3AD7A156184B400D1853D /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42B3AD61156184B400D1853D /* UIWebView Boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIWebView Boilerplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B3AD65156184B400D1853D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42B3AD67156184B400D1853D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42B3AD69156184B400D1853D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42B3AD6D156184B400D1853D /* UIWebView Boilerplate-Info.plist */ = {isa = PBXFileReference; path = "UIWebView Boilerplate-Info.plist"; sourceTree = "<group>"; };
+		42B3AD6F156184B400D1853D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42B3AD71156184B400D1853D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42B3AD73156184B400D1853D /* UIWebView Boilerplate-Prefix.pch */ = {isa = PBXFileReference; path = "UIWebView Boilerplate-Prefix.pch"; sourceTree = "<group>"; };
+		42B3AD74156184B400D1853D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		42B3AD75156184B400D1853D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42B3AD77156184B400D1853D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		42B3AD78156184B400D1853D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42B3AD7B156184B400D1853D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B3AD5E156184B400D1853D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B3AD66156184B400D1853D /* UIKit.framework in Frameworks */,
+				42B3AD68156184B400D1853D /* Foundation.framework in Frameworks */,
+				42B3AD6A156184B400D1853D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42B3AD56156184B400D1853D = {
+			isa = PBXGroup;
+			children = (
+				42B3AD6B156184B400D1853D /* UIWebView Boilerplate */,
+				42B3AD64156184B400D1853D /* Frameworks */,
+				42B3AD62156184B400D1853D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42B3AD62156184B400D1853D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42B3AD61156184B400D1853D /* UIWebView Boilerplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42B3AD64156184B400D1853D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42B3AD65156184B400D1853D /* UIKit.framework */,
+				42B3AD67156184B400D1853D /* Foundation.framework */,
+				42B3AD69156184B400D1853D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42B3AD6B156184B400D1853D /* UIWebView Boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				42B3AD74156184B400D1853D /* AppDelegate.h */,
+				42B3AD75156184B400D1853D /* AppDelegate.m */,
+				42B3AD77156184B400D1853D /* ViewController.h */,
+				42B3AD78156184B400D1853D /* ViewController.m */,
+				42B3AD7A156184B400D1853D /* ViewController.xib */,
+				42B3AD6C156184B400D1853D /* Supporting Files */,
+			);
+			path = "UIWebView Boilerplate";
+			sourceTree = "<group>";
+		};
+		42B3AD6C156184B400D1853D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42B3AD6D156184B400D1853D /* UIWebView Boilerplate-Info.plist */,
+				42B3AD6E156184B400D1853D /* InfoPlist.strings */,
+				42B3AD71156184B400D1853D /* main.m */,
+				42B3AD73156184B400D1853D /* UIWebView Boilerplate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42B3AD60156184B400D1853D /* UIWebView Boilerplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B3AD7F156184B400D1853D /* Build configuration list for PBXNativeTarget "UIWebView Boilerplate" */;
+			buildPhases = (
+				42B3AD5D156184B400D1853D /* Sources */,
+				42B3AD5E156184B400D1853D /* Frameworks */,
+				42B3AD5F156184B400D1853D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIWebView Boilerplate";
+			productName = "UIWebView Boilerplate";
+			productReference = 42B3AD61156184B400D1853D /* UIWebView Boilerplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42B3AD58156184B400D1853D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Triangle Square Circle";
+			};
+			buildConfigurationList = 42B3AD5B156184B400D1853D /* Build configuration list for PBXProject "UIWebView Boilerplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42B3AD56156184B400D1853D;
+			productRefGroup = 42B3AD62156184B400D1853D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42B3AD60156184B400D1853D /* UIWebView Boilerplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42B3AD5F156184B400D1853D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B3AD70156184B400D1853D /* InfoPlist.strings in Resources */,
+				42B3AD7C156184B400D1853D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42B3AD5D156184B400D1853D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B3AD72156184B400D1853D /* main.m in Sources */,
+				42B3AD76156184B400D1853D /* AppDelegate.m in Sources */,
+				42B3AD79156184B400D1853D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42B3AD6E156184B400D1853D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B3AD6F156184B400D1853D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42B3AD7A156184B400D1853D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B3AD7B156184B400D1853D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42B3AD7D156184B400D1853D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42B3AD7E156184B400D1853D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42B3AD80156184B400D1853D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebView Boilerplate/UIWebView Boilerplate-Prefix.pch";
+				INFOPLIST_FILE = "UIWebView Boilerplate/UIWebView Boilerplate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42B3AD81156184B400D1853D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebView Boilerplate/UIWebView Boilerplate-Prefix.pch";
+				INFOPLIST_FILE = "UIWebView Boilerplate/UIWebView Boilerplate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42B3AD5B156184B400D1853D /* Build configuration list for PBXProject "UIWebView Boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B3AD7D156184B400D1853D /* Debug */,
+				42B3AD7E156184B400D1853D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B3AD7F156184B400D1853D /* Build configuration list for PBXNativeTarget "UIWebView Boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B3AD80156184B400D1853D /* Debug */,
+				42B3AD81156184B400D1853D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42B3AD58156184B400D1853D /* Project object */;
+}
