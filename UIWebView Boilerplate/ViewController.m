@@ -14,10 +14,16 @@
 
 @implementation ViewController
 
+@synthesize webView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+  
+    NSURL *url = [NSURL URLWithString:@"http://google.com"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [webView loadRequest:request];
 }
 
 - (void)viewDidUnload

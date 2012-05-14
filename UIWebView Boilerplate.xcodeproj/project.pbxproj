@@ -22,13 +22,13 @@
 		42B3AD65156184B400D1853D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42B3AD67156184B400D1853D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42B3AD69156184B400D1853D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		42B3AD6D156184B400D1853D /* UIWebView Boilerplate-Info.plist */ = {isa = PBXFileReference; path = "UIWebView Boilerplate-Info.plist"; sourceTree = "<group>"; };
+		42B3AD6D156184B400D1853D /* UIWebView Boilerplate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebView Boilerplate-Info.plist"; sourceTree = "<group>"; };
 		42B3AD6F156184B400D1853D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42B3AD71156184B400D1853D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42B3AD73156184B400D1853D /* UIWebView Boilerplate-Prefix.pch */ = {isa = PBXFileReference; path = "UIWebView Boilerplate-Prefix.pch"; sourceTree = "<group>"; };
-		42B3AD74156184B400D1853D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		42B3AD73156184B400D1853D /* UIWebView Boilerplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebView Boilerplate-Prefix.pch"; sourceTree = "<group>"; };
+		42B3AD74156184B400D1853D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42B3AD75156184B400D1853D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42B3AD77156184B400D1853D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		42B3AD77156184B400D1853D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		42B3AD78156184B400D1853D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		42B3AD7B156184B400D1853D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
